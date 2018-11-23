@@ -1,2 +1,2 @@
-# Spark-In-Practice
-Spark项目
+# BigData-In-Practice
+大数据实践项目
