@@ -123,8 +123,18 @@ http://ip:50070/explorer.html#/hadoop/ch2/output/coaa.sample
 
 ### 补充
 
-设置 Combiner 可减少数据的传输量、提高效率
+#### 设置 Combiner 可减少数据的传输量、提高效率
 
 ```
 job.setCombinerClass(MaxTemperatureReducer.class);
 ```
+
+
+
+#### 关于 Hadoop集群加入新节点
+
+* 当Hadoop集群有新节点加入时，正在运行的MapReduce作业自动识别并使用新节点；
+* 当新节点加入Hadoop集群后，再启动MapReduce作业，MapReduce作业也能自动识别并使用新节点
+
+
+
