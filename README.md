@@ -9,4 +9,5 @@
 | [hdfscrud](https://github.com/whirlys/BigData-In-Practice/tree/master/hdfscrud) | HDFS Java API 增删查改                                  |
 | [hdfslogcollect](https://github.com/whirlys/BigData-In-Practice/tree/master/hdfslogcollect) | Timer 定时将日志文件备份到 HDFS 中去，copyFromLocalFile |
 | [commonfans](https://github.com/whirlys/BigData-In-Practice/tree/master/commonfans) | MapReduce 计算共同好友                                  |
+| [hadoopjoin](https://github.com/whirlys/BigData-In-Practice/tree/master/hadoopjoin) | MapReduce 两表进行左连接 left join                      |
 
