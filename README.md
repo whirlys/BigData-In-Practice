@@ -3,6 +3,8 @@
 
 
 
+### 入门学习示例
+
 | 项目名                                                       | 介绍                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [ch2noaa](https://github.com/whirlys/BigData-In-Practice/tree/master/ch2noaa) | MapReduce 实验 - 计算气温 最大/最小/平均 值                  |
@@ -11,4 +13,13 @@
 | [commonfans](https://github.com/whirlys/BigData-In-Practice/tree/master/commonfans) | MapReduce 计算共同好友                                       |
 | [hadoopjoin](https://github.com/whirlys/BigData-In-Practice/tree/master/hadoopjoin) | MapReduce 两表进行左连接 left join，两表进行 map join        |
 | [customizePartition](https://github.com/whirlys/BigData-In-Practice/tree/master/customizePartition) | MapReduce 自定义分区 ，Partitioner 决定每条记录应该送往哪个reducer节点 |
+| (sparkSqlSample)[https://github.com/whirlys/BigData-In-Practice/tree/master/sparkSqlSample] | Spark SQL 样例，关于HiveContext、SQLContext、SparkSession、RDD、DataFrame、Dataset的使用 |
+
+
+
+
+
+### 数据算法 Hadoop + Spark 实现
+
+### 综合项目实战
 
