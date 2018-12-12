@@ -9,6 +9,7 @@
 - DataFrame API基本操作
 - DataFrame和RDD的互操作
 - Dataset操作
+- Parquet文件操作
 
 ### 环境
 
