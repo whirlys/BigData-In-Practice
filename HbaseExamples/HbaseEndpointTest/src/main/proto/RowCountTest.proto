@@ -1,0 +1,19 @@
+option java_package = "com.whirly.coprocessor.endpoint";
+
+option java_outer_classname = "GetRowCount";
+option java_generic_services = true;
+option optimize_for = SPEED;
+
+message getRowCountRequest{
+
+}
+
+message getRowCountResponse {
+  optional int64 rowCount = 1;
+}
+
+
+service hbaseEndPointTestService {
+  rpc getRowCount(getRowCountRequest)
+  returns(getRowCountResponse);
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.whirly.phoenix.dao.UserInfoMapper">
+  <resultMap id="userResultMap"
+    type="com.whirly.phoenix.UserInfo">
+    <id column="ID" property="id"/>
+    <result column="NAME" property="name"/>
+  </resultMap>
+</mapper>

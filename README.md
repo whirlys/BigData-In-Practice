@@ -5,7 +5,7 @@
 
 ### 综合实践项目
 
-| 项目名                                                       | header 2                                              |
+| 项目名                                                       | 说明                                                  |
 | ------------------------------------------------------------ | ----------------------------------------------------- |
 | [ImoocLogAnalysis](https://github.com/whirlys/BigData-In-Practice/tree/master/ImoocLogAnalysis) | 使用 Spark SQL imooc 访问日志，数据清洗，统计，可视化 |
 
@@ -23,6 +23,7 @@
 | [customizePartition](https://github.com/whirlys/BigData-In-Practice/tree/master/customizePartition) | MapReduce | MapReduce 自定义分区 ，Partitioner 决定每条记录应该送往哪个reducer节点 |
 | [sparkSqlSample](https://github.com/whirlys/BigData-In-Practice/tree/master/sparkSqlSample) | Spark SQL | Spark SQL 样例，关于HiveContext、SQLContext、SparkSession、RDD、DataFrame、Dataset的使用 |
 | [curator-example](https://github.com/whirlys/BigData-In-Practice/tree/master/curator-example) | Zookeeper | 基于Apache Curator实现对Zookeeper的操作，以及数据发布/订阅、负载均衡、命名服务、分布式协调/通知、集群管理、Master选举、分布式锁和分布式队列等Zookeeper的应用场景 |
+| [HbaseExamples](https://github.com/whirlys/BigData-In-Practice/tree/master/HbaseExamples) | HBase     | Hbase Java API的基本操作，包括增删查改、过滤器、协处理器，Phoenix、Phoenix+Mybatis等 |
 
 
 

@@ -34,7 +34,7 @@ public class ConsumerClient {
 
         boolean flag = true;
 
-        //死循环来不停的获取服务列表,查看是否有新服务发布
+        // 死循环来不停的获取服务列表,查看是否有新服务发布
         while (flag) {
 
             //根据名称获取服务

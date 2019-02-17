@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @program: curator-example
- * @description:
+ * @description: 服务生产者1
  * @author: 赖键锋
  * @create: 2019-01-23 16:40
  **/
@@ -22,13 +22,13 @@ public class ProviderService1 {
         client.start();
         client.blockUntilConnected();
 
-        //服务构造器
+        // 服务构造器
         ServiceInstanceBuilder<InstanceDetails> sib = ServiceInstance.builder();
-        //该服务中所有的接口
+        // 该服务中所有的接口
         Map<String, InstanceDetails.Service> services = new HashMap<>();
 
         // 添加订单服务接口
-        //服务所需要的参数
+        // 服务所需要的参数
         ArrayList<String> addOrderParams = new ArrayList<>();
         addOrderParams.add("createTime");
         addOrderParams.add("state");
@@ -39,7 +39,7 @@ public class ProviderService1 {
         services.put("addOrder", addOrderService);
 
 
-        //添加删除订单服务接口
+        // 添加删除订单服务接口
         ArrayList<String> delOrderParams = new ArrayList<>();
         delOrderParams.add("orderId");
         InstanceDetails.Service delOrderService = new InstanceDetails.Service();
@@ -48,12 +48,12 @@ public class ProviderService1 {
         delOrderService.setParams(delOrderParams);
         services.put("delOrder", delOrderService);
 
-        //服务的其他信息
+        // 服务的其他信息
         InstanceDetails payload = new InstanceDetails();
         payload.setServiceDesc("订单服务");
         payload.setServices(services);
 
-        //将服务添加到 ServiceInstance
+        // 将服务添加到 ServiceInstance
         ServiceInstance<InstanceDetails> orderService = sib.address("127.0.0.1")
                 .port(8080)
                 .name("OrderService")
@@ -61,7 +61,7 @@ public class ProviderService1 {
                 .uriSpec(new UriSpec("{scheme}://{address}:{port}"))
                 .build();
 
-        //构建 ServiceDiscovery 用来注册服务
+        // 构建 ServiceDiscovery 用来注册服务
         ServiceDiscovery<InstanceDetails> serviceDiscovery = ServiceDiscoveryBuilder.builder(InstanceDetails.class)
                 .client(client)
                 .serializer(new JsonInstanceSerializer<InstanceDetails>(InstanceDetails.class))
