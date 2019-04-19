@@ -24,6 +24,7 @@
 | [sparkSqlSample](https://github.com/whirlys/BigData-In-Practice/tree/master/sparkSqlSample) | Spark SQL | Spark SQL 样例，关于HiveContext、SQLContext、SparkSession、RDD、DataFrame、Dataset的使用 |
 | [curator-example](https://github.com/whirlys/BigData-In-Practice/tree/master/curator-example) | Zookeeper | 基于Apache Curator实现对Zookeeper的操作，以及数据发布/订阅、负载均衡、命名服务、分布式协调/通知、集群管理、Master选举、分布式锁和分布式队列等Zookeeper的应用场景 |
 | [HbaseExamples](https://github.com/whirlys/BigData-In-Practice/tree/master/HbaseExamples) | HBase     | Hbase Java API的基本操作，包括增删查改、过滤器、协处理器，Phoenix、Phoenix+Mybatis等 |
+| [kafka-example](https://github.com/whirlys/BigData-In-Practice/tree/master/kafka-example) | Kafka     | 深入理解Kafka各种操作，生产者、消费者、主题、分区、应用、可靠性、spark |
 
 
 
