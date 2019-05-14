@@ -28,9 +28,21 @@
 
 
 
-
-
-
-
 ### 数据算法 Hadoop + Spark 实现
 
+
+
+### 阅读资料
+
+#### Canal
+
+- [深入解析中间件之-Canal](https://zqhxuyuan.github.io/2017/10/10/Midd-canal/#)
+
+- [田守技 - canal源码解析 - 1.0 canal源码分析简介](http://www.tianshouzhi.com/api/tutorials/canal/380)
+- [田守技 - canal源码解析 - 2.0 deployer模块](http://www.tianshouzhi.com/api/tutorials/canal/381)
+- [田守技 - canal源码解析 - 3.0 server模块](http://www.tianshouzhi.com/api/tutorials/canal/382)
+- [田守技 - canal源码解析 - 4.0 instance模块](http://www.tianshouzhi.com/api/tutorials/canal/391)
+- [田守技 - canal源码解析 - 5.0 store模块](http://www.tianshouzhi.com/api/tutorials/canal/401)
+- [田守技 - canal源码解析 - 6.0 filter模块](http://www.tianshouzhi.com/api/tutorials/canal/402)
+- [田守技 - canal源码解析 - 7.0 driver模块](http://www.tianshouzhi.com/api/tutorials/canal/403)
+- [田守技 - canal源码解析 - 8.0 异地多活场景下的数据同步之道](http://www.tianshouzhi.com/api/tutorials/canal/404)
